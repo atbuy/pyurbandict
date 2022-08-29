@@ -18,7 +18,6 @@ setup(
     name="pyurbandict",
     version="0.1.1",
     license="MIT",
-    description="Python Urban Dictionary scraper",
     author="Vitaman02",
     url="https://github.com/Vitaman02/pyurbandict",
     description=readme,
