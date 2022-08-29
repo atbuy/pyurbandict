@@ -22,6 +22,7 @@ setup(
     url="https://github.com/Vitaman02/pyurbandict",
     description="Python wrapper for the Urban Dictionary API.",
     long_description=readme,
+    long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=requirements,
     python_requires=">=3.10",
