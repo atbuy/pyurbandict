@@ -31,7 +31,7 @@ class UrbanDict:
         self.searched = False
         self.definitions = None
 
-    def search(self, definitions: Optional[int] = None) -> dict:
+    def search(self) -> dict:
         """Returns a dictionary with JSON data from urbandictionary."""
 
         data = requests.get(self.url).json()
