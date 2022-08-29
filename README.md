@@ -1,6 +1,6 @@
-# pyurbandict
+# python-urbandict
 
-This is a python project, that fetches definitions of words from urban dictionary.
+This is a python project, that fetches definitions of words from urban dictionary's public API.
 
 Future additions. PRs are always welcome :)
 * Calculate ratio of `thumbs_up` and `thumbs_down` and decide the probability of a correct definition.
@@ -13,10 +13,10 @@ To install the library you can use the following command:
 
 ```
 # Linux/MacOS
-python3 -m pip install --upgrade pyurbandict
+python3 -m pip install --upgrade python-urbandict
 
 # Windows
-py -3 -m pip install --upgrade pyurbandict
+py -3 -m pip install --upgrade python-urbandict
 ```
 
 # Quick Example

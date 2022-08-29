@@ -15,7 +15,7 @@ with open(readme_path) as file:
     readme = file.read()
 
 setup(
-    name="pyurbandict",
+    name="python-urbandict",
     version="0.1.1",
     license="MIT",
     author="Vitaman02",
