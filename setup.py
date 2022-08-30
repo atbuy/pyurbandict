@@ -16,7 +16,7 @@ with open(readme_path) as file:
 
 setup(
     name="python-urbandict",
-    version="0.2.1",
+    version="0.2.2",
     license="MIT",
     author="Vitaman02",
     url="https://github.com/Vitaman02/pyurbandict",
@@ -25,13 +25,12 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=requirements,
-    python_requires=">=3.8",
+    python_requires=">=3.9",
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Intended Audience :: Developers",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Topic :: Software Development :: Libraries",

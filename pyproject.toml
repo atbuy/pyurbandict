@@ -3,13 +3,13 @@ max-line-length = 88
 
 [tool.poetry]
 name = "pyurbandict"
-version = "0.2.1"
+version = "0.2.2"
 description = "Python wrapper for the Urban Dictionary API."
 authors = ["Vitaman02"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 requests = "^2.28.1"
 
 [tool.poetry.dev-dependencies]
