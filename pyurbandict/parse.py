@@ -2,7 +2,6 @@ from dataclasses import dataclass
 from typing import Optional
 
 import requests
-from rich import pretty
 
 
 @dataclass
@@ -44,9 +43,3 @@ class UrbanDict:
             out.append(Definition(**item))
 
         return out
-
-
-if __name__ == "__main__":
-    ud = UrbanDict()
-    data = ud.search()
-    pretty.pprint(data)
