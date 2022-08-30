@@ -10,6 +10,8 @@ license = "MIT"
 homepage = "https://github.com/Vitaman02/pyurbandict"
 repository = "https://github.com/Vitaman02/pyurbandict"
 keywords = ["urban", "dictionary", "api", "wrapper", "python"]
+include = ["README.md"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
