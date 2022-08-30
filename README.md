@@ -35,4 +35,4 @@ print(results[0])
 ```
 
 # Links
-* [PyPi]()
+* [PyPi](https://pypi.org/project/python-urbandict/)
