@@ -3,6 +3,7 @@
 ![version](https://img.shields.io/pypi/v/python-urbandict.svg)
 ![versions](https://img.shields.io/pypi/pyversions/python-urbandict.svg)
 [![Python package](https://github.com/Vitaman02/pyurbandict/actions/workflows/python-package.yml/badge.svg)](https://github.com/Vitaman02/pyurbandict/actions/workflows/python-package.yml)
+[![codecov](https://codecov.io/gh/Vitaman02/pyurbandict/branch/main/graph/badge.svg?token=A244XBTUVH)](https://codecov.io/gh/Vitaman02/pyurbandict)
 
 This is a python project, that fetches definitions of words from urban dictionary's public API.
 
