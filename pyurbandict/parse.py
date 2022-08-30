@@ -21,9 +21,7 @@ class Definition:
 
 class UrbanDict:
     def __init__(self, word: Optional[str] = None) -> None:
-        self.url = (
-            f"https://api.urbandictionary.com/v0/define?term={word}&definitions=1"
-        )
+        self.url = f"https://api.urbandictionary.com/v0/define?term={word}"
         if not word:
             self.url = "https://api.urbandictionary.com/v0/random"
 
@@ -38,8 +36,6 @@ class UrbanDict:
 
         # Parse each listing and pass it
         # to the Definition dataclass.
-        out = []
-        for item in data["list"]:
-            out.append(Definition(**item))
-
-        return out
+        definitions = [Definition(**item) for item in data["list"]]
+        self.definitions = definitions
+        return definitions
