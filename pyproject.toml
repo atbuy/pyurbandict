@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-urbandict"
-version = "0.1.0"
+version = "0.1.2"
 description = "Python Urban Dictionary scraper"
 authors = ["Vitaman02"]
 license = "MIT"

@@ -16,7 +16,7 @@ with open(readme_path) as file:
 
 setup(
     name="python-urbandict",
-    version="0.1.1",
+    version="0.1.2",
     license="MIT",
     author="Vitaman02",
     url="https://github.com/Vitaman02/pyurbandict",
