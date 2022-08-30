@@ -1,0 +1,17 @@
+coverage:
+  status:
+    patch:
+      target: 90%
+      threshold: 80%
+      base: auto
+      if_not_found: success
+      informational: false
+      only_pulls: false
+    project:
+      default:
+        target: auto
+        threshold: 5%
+        base: auto
+        if_not_found: success
+        informational: false
+        only_pulls: false
