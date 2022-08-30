@@ -83,3 +83,13 @@ class ParseTest(TestCase):
         data = word.search()
         self.assertTrue(word.searched)
         self.assertEqual(data[0], self.mock_definition)
+
+    @mock.patch("requests.get", side_effect=mock_request)
+    def test_search_random(self, mock_get) -> None:
+        """Test the search method with a random word"""
+
+        # Use mocks instead of actual requests.
+        word = UrbanDict()
+        data = word.search()
+        self.assertTrue(word.searched)
+        self.assertEqual(data[0], self.mock_definition)
