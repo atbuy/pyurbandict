@@ -1,7 +1,10 @@
+[flake8]
+max-line-length = 88
+
 [tool.poetry]
-name = "python-urbandict"
-version = "0.1.2"
-description = "Python Urban Dictionary scraper"
+name = "pyurbandict"
+version = "0.2.1"
+description = "Python wrapper for the Urban Dictionary API."
 authors = ["Vitaman02"]
 license = "MIT"
 
@@ -13,6 +16,7 @@ requests = "^2.28.1"
 black = "^22.6.0"
 flake8 = "^5.0.4"
 pre-commit = "^2.20.0"
+pytest = "^7.1.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
