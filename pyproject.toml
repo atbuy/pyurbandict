@@ -12,6 +12,9 @@ repository = "https://github.com/Vitaman02/pyurbandict"
 keywords = ["urban", "dictionary", "api", "wrapper", "python"]
 include = ["README.md"]
 readme = "README.md"
+packages = [
+    {include = "pyurbandict"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
