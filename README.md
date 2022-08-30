@@ -1,7 +1,7 @@
 # python-urbandict
 
-[![version](https://img.shields.io/pypi/v/python-urbandict.svg)](https://github.com/Vitaman02/pyurbandict)
-[![versions](https://img.shields.io/pypi/pyversions/python-urbandict.svg)](https://github.com/Vitaman02/pyurbandict)
+[![version](https://img.shields.io/pypi/v/python-urbandict.svg)](https://pypi.org/project/python-urbandict/)
+[![versions](https://img.shields.io/pypi/pyversions/python-urbandict.svg)](https://pypi.org/project/python-urbandict/)
 [![Python package](https://github.com/Vitaman02/pyurbandict/actions/workflows/python-package.yml/badge.svg)](https://github.com/Vitaman02/pyurbandict/actions/workflows/python-package.yml)
 [![codecov](https://codecov.io/gh/Vitaman02/pyurbandict/branch/main/graph/badge.svg?token=A244XBTUVH)](https://codecov.io/gh/Vitaman02/pyurbandict)
 
