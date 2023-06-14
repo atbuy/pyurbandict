@@ -1,5 +1,7 @@
+# Python
 /**/__pycache__/*
-urban_env/*
-.vscode/
 dist/
 *.egg-info/
+
+# VSCode configuration
+.vscode/

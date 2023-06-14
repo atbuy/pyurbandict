@@ -3,12 +3,12 @@ max-line-length = 88
 
 [tool.poetry]
 name = "python-urbandict"
-version = "0.2.5"
+version = "0.2.6"
 description = "Python wrapper for the Urban Dictionary API."
-authors = ["Vitaman02"]
+authors = ["atbuy"]
 license = "MIT"
-homepage = "https://github.com/Vitaman02/pyurbandict"
-repository = "https://github.com/Vitaman02/pyurbandict"
+homepage = "https://github.com/atbuy/pyurbandict"
+repository = "https://github.com/atbuy/pyurbandict"
 keywords = ["urban", "dictionary", "api", "wrapper", "python"]
 include = ["README.md"]
 readme = "README.md"
@@ -28,9 +28,9 @@ pytest = "^7.1.2"
 pytest-cov = "^3.0.0"
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://github.com/Vitaman02/pyurbandict/issues"
-"Source Code" = "https://github.com/Vitaman02/pyurbandict"
-"CI/CD" = "https://github.com/Vitaman02/pyurbandict/actions"
+"Bug Tracker" = "https://github.com/atbuy/pyurbandict/issues"
+"Source Code" = "https://github.com/atbuy/pyurbandict"
+"CI/CD" = "https://github.com/atbuy/pyurbandict/actions"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
