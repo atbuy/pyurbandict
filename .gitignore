@@ -5,3 +5,6 @@ dist/
 
 # VSCode configuration
 .vscode/
+
+# Tox
+.tox/
