@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Optional
 
 import requests
@@ -6,17 +6,17 @@ import requests
 
 @dataclass
 class Definition:
-    word: str
-    definition: str
-    example: str
-    author: str
-    thumbs_up: int
-    thumbs_down: int
-    sound_urls: list[str]
-    written_on: str
-    permalink: str
-    defid: int
-    current_vote: str
+    word: Optional[str] = ""
+    definition: Optional[str] = ""
+    example: Optional[str] = ""
+    author: Optional[str] = ""
+    thumbs_up: Optional[int] = None
+    thumbs_down: Optional[int] = None
+    sound_urls: Optional[list[str]] = field(default_factory=list)
+    written_on: Optional[str] = ""
+    permalink: Optional[str] = ""
+    defid: Optional[int] = None
+    current_vote: str = ""
 
 
 class UrbanDict:
