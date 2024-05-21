@@ -2,8 +2,8 @@
 
 [![version](https://img.shields.io/pypi/v/python-urbandict.svg)](https://pypi.org/project/python-urbandict/)
 [![versions](https://img.shields.io/pypi/pyversions/python-urbandict.svg)](https://pypi.org/project/python-urbandict/)
-[![Python package](https://github.com/Vitaman02/pyurbandict/actions/workflows/python-package.yml/badge.svg)](https://github.com/Vitaman02/pyurbandict/actions/workflows/python-package.yml)
-[![codecov](https://codecov.io/gh/Vitaman02/pyurbandict/branch/main/graph/badge.svg?token=A244XBTUVH)](https://codecov.io/gh/Vitaman02/pyurbandict)
+[![Python package](https://github.com/atbuy/pyurbandict/actions/workflows/python-package.yml/badge.svg)(https://github.com/atbuy/pyurbandict/actions/workflows/python-package.yml)
+[![codecov](https://codecov.io/gh/atbuy/pyurbandict/branch/main/graph/badge.svg?token=A244XBTUVH)(https://codecov.io/gh/atbuy/pyurbandict)
 
 This is a python project, that fetches definitions of words from urban dictionary's public API.
 
