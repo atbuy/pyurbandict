@@ -3,7 +3,7 @@ max-line-length = 88
 
 [tool.poetry]
 name = "python-urbandict"
-version = "0.3.8"
+version = "0.3.9"
 description = "Python wrapper for the Urban Dictionary API."
 authors = ["atbuy <buy@atbuy.dev>"]
 license = "MIT"
@@ -18,7 +18,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
-requests = "^2.32.0"
+requests = "^2.32.3"
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/atbuy/pyurbandict/issues"
