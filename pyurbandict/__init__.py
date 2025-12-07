@@ -1,3 +1,4 @@
-from pyurbandict.parse import UrbanDict  # noqa: F401
+from pyurbandict.parse import UrbanDict
 
-__version__ = (0, 3, 12)
+__version__ = (0, 3, 13)
+__all__ = ("UrbanDict",)
