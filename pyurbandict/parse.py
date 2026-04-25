@@ -28,14 +28,13 @@ class UrbanDict:
         self.searched = False
         self.definitions = None
 
-    def search(self) -> dict:
+    def search(self) -> list[Definition]:
         """Returns a dictionary with JSON data from urbandictionary."""
 
         data = requests.get(self.url).json()
         self.searched = True
 
-        # Parse each listing and pass it
-        # to the Definition dataclass.
+        # Parse each listing and pass it to the Definition dataclass.
         definitions = [Definition(**item) for item in data["list"]]
         self.definitions = definitions
         return definitions

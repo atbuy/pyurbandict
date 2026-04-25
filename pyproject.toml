@@ -1,21 +1,21 @@
 [project]
 name = "python-urbandict"
-version = "0.3.14"
+version = "0.3.15"
 description = "Python wrapper for the Urban Dictionary API."
 authors = [{ name = "atbuy", email = "buy@atbuy.dev" }]
 license = "MIT"
 readme = "README.md"
 requires-python = ">=3.10"
 keywords = ["urban", "dictionary", "api", "wrapper", "python"]
-dependencies = ["requests==2.32.5"]
+dependencies = ["requests>=2.26.0"]
 
 [project.optional-dependencies]
 dev = [
-  "pre-commit==4.5.1",
-  "ruff==0.14.10",
-  "tox==4.33.0",
-  "pytest==9.0.2",
-  "pytest-cov==7.0.0",
+  "pre-commit==4.6.0",
+  "ruff==0.15.12",
+  "tox==4.53.0",
+  "pytest==9.0.3",
+  "pytest-cov==7.1.0",
 ]
 
 [project.urls]
