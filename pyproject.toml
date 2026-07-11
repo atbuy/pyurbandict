@@ -1,6 +1,6 @@
 [project]
 name = "python-urbandict"
-version = "0.3.16"
+version = "0.3.17"
 description = "Python wrapper for the Urban Dictionary API."
 authors = [{ name = "atbuy", email = "buy@atbuy.dev" }]
 license = "MIT"
@@ -11,10 +11,10 @@ dependencies = ["requests>=2.33.0"]
 
 [project.optional-dependencies]
 dev = [
-  "pre-commit==4.6.0",
-  "ruff==0.15.12",
-  "tox==4.53.0",
-  "pytest==9.0.3",
+  "prek==0.4.8",
+  "ruff==0.15.21",
+  "tox==4.56.4",
+  "pytest==9.1.1",
   "pytest-cov==7.1.0",
 ]
 
