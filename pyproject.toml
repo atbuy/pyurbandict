@@ -1,13 +1,13 @@
 [project]
 name = "python-urbandict"
-version = "0.3.15"
+version = "0.3.16"
 description = "Python wrapper for the Urban Dictionary API."
 authors = [{ name = "atbuy", email = "buy@atbuy.dev" }]
 license = "MIT"
 readme = "README.md"
 requires-python = ">=3.10"
 keywords = ["urban", "dictionary", "api", "wrapper", "python"]
-dependencies = ["requests>=2.26.0"]
+dependencies = ["requests>=2.33.0"]
 
 [project.optional-dependencies]
 dev = [
