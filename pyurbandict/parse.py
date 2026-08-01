@@ -1,5 +1,5 @@
-from dataclasses import dataclass, field
-from typing import Optional
+from dataclasses import dataclass, field, fields
+from typing import Any, Optional
 
 import requests
 
@@ -17,6 +17,16 @@ class Definition:
     permalink: Optional[str] = ""
     defid: Optional[int] = None
     current_vote: str = ""
+    udimg_url: Optional[str] = ""
+    play_sound_url: Optional[str] = ""
+    
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> "Definition":
+        """Filters out all unknown keyword arguments."""
+        
+        class_fields = {f.name for f in fields(cls)}
+        filtered_data = {k: v for k, v in data.items() if k in class_fields}
+        return cls(**filtered_data)
 
 
 class UrbanDict:
@@ -35,6 +45,7 @@ class UrbanDict:
         self.searched = True
 
         # Parse each listing and pass it to the Definition dataclass.
-        definitions = [Definition(**item) for item in data["list"]]
+        # fix: using the correct method
+        definitions = [Definition.from_dict(item) for item in data["list"]]
         self.definitions = definitions
         return definitions

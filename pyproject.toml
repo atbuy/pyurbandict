@@ -1,8 +1,11 @@
 [project]
 name = "python-urbandict"
-version = "0.3.17"
+version = "0.3.18"
 description = "Python wrapper for the Urban Dictionary API."
-authors = [{ name = "atbuy", email = "buy@atbuy.dev" }]
+authors = [
+    { name = "atbuy", email = "buy@atbuy.dev" },
+    { name = "ytrytio" }
+]
 license = "MIT"
 readme = "README.md"
 requires-python = ">=3.10"
