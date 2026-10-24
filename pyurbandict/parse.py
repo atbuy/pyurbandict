@@ -1,26 +1,25 @@
 from dataclasses import dataclass, field
-from typing import Optional
 
 import requests
 
 
 @dataclass
 class Definition:
-    word: Optional[str] = ""
-    definition: Optional[str] = ""
-    example: Optional[str] = ""
-    author: Optional[str] = ""
-    thumbs_up: Optional[int] = None
-    thumbs_down: Optional[int] = None
-    sound_urls: Optional[list[str]] = field(default_factory=list)
-    written_on: Optional[str] = ""
-    permalink: Optional[str] = ""
-    defid: Optional[int] = None
+    word: str | None = ""
+    definition: str | None = ""
+    example: str | None = ""
+    author: str | None = ""
+    thumbs_up: int | None = None
+    thumbs_down: int | None = None
+    sound_urls: list[str] | None = field(default_factory=list)
+    written_on: str | None = ""
+    permalink: str | None = ""
+    defid: int | None = None
     current_vote: str = ""
 
 
 class UrbanDict:
-    def __init__(self, word: Optional[str] = None) -> None:
+    def __init__(self, word: str | None = None) -> None:
         self.url = f"https://api.urbandictionary.com/v0/define?term={word}"
         if not word:
             self.url = "https://api.urbandictionary.com/v0/random"
